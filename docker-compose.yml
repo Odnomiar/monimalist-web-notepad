@@ -7,7 +7,7 @@ services:
     ports:
      - "8632:8632"
     volumes:
-     - minimalist-web-notepad:/var/www/html/_tmp
+     - /srv/dev-disk-by-uuid-B8AAEC92AAEC4E86/Configurazioni/MinimalistWebNotepad:/var/www/html/_tmp
 
 volumes:
   minimalist-web-notepad:

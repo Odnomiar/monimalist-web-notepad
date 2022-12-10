@@ -1,7 +1,7 @@
 <?php
 
 // Base URL of the website, without trailing slash.
-$base_url = getenv('MWN_BASE_URL') ?: '';
+$base_url = getenv('MWN_BASE_URL') ?: '192.168.1.56:8632';
 
 // Path to the directory to save the notes in, without trailing slash.
 // Should be outside of the document root, if possible.
